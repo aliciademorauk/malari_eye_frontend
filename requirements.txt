@@ -1,7 +1,7 @@
 streamlit
 streamlit-extras
 numpy
-PIL
+Pillow
 cv2
 pandas
 numpy
