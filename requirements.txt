@@ -1,0 +1,12 @@
+streamlit
+streamlit-extras
+numpy
+PIL
+cv2
+pandas
+numpy
+seaborn
+matplotlib.pyplot
+requests
+time
+libgl1
