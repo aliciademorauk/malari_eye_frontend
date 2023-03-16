@@ -10,18 +10,20 @@ import requests
 import time
 import json
 from io import BytesIO
+import os
 
 if 'df' not in st.session_state.keys():
     st.session_state['df'] = ''
 
 # images
+st.write(f"{os.getcwd()}")
 
-malari_eye_logo = Image.open('../images/Malaria-Logo.png')
-spread_stages = Image.open('../images/Red-Spread-Stages.png')
-img_ring = Image.open('../images/Ring.png')
-img_trophozoite = Image.open('../images/Trophozoite.png')
-img_schizont = Image.open('../images/Schizont.png')
-img_gametocyte = Image.open('../images/Gametocyte.png')
+malari_eye_logo = Image.open('app/images/Malaria-Logo.png')
+spread_stages = Image.open('app/images/Red-Spread-Stages.png')
+img_ring = Image.open('app/images/Ring.png')
+img_trophozoite = Image.open('app/images/Trophozoite.png')
+img_schizont = Image.open('app/images/Schizont.png')
+img_gametocyte = Image.open('app/images/Gametocyte.png')
 
 # page configuration...
 # page title, layout
