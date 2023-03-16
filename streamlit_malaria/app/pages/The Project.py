@@ -10,16 +10,16 @@ import time
 
 # images:
 
-malaria_parasite_bright = Image.open('./images/Cells-Background.jpeg')
-malari_eye_logo = Image.open('./images/Malaria-Logo.png')
-malaria_parasite = Image.open('./images/Malaria-Parasite.jpeg')
-bounding_boxes_img = Image.open('./images/Rounded-Boxes.png')
-blood_microscope_slide = Image.open('./images/Rounded-Hands-Slide.png')
-purple_cells = Image.open('./images/Purple-Cells-PhotoRoom.png')
-arnaud_photo = Image.open('./images/Arnaud-Pro-Circle.png')
-alicia_photo = Image.open('./images/Alicia-Pro-Circle.png')
-mark_photo = Image.open('./images/Mark-Pro-Circle.png')
-transformer_diagram = Image.open('./images/Transformer-Diagram-Rounded.png')
+malaria_parasite_bright = Image.open('streamlit_malaria/app/images/Cells-Background.jpeg')
+malarit_eye_logo = Image.open('streamlit_malaria/app/images/Malaria-Logo.png')
+malaria_parasite = Image.open('streamlit_malaria/app/images/Malaria-Parasite.jpeg')
+bounding_boxes_img = Image.open('streamlit_malaria/app/images/Rounded-Boxes.png')
+blood_microscope_slide = Image.open('streamlit_malaria/app/images/Rounded-Hands-Slide.png')
+purple_cells = Image.open('streamlit_malaria/app/images/Purple-Cells-PhotoRoom.png')
+arnaud_photo = Image.open('streamlit_malaria/app/images/Arnaud-Pro-Circle.png')
+alicia_photo = Image.open('streamlit_malaria/app/images/Alicia-Pro-Circle.png')
+mark_photo = Image.open('streamlit_malaria/app/images/Mark-Pro-Circle.png')
+transformer_diagram = Image.open('streamlit_malaria/app/images/Transformer-Diagram-Rounded.png')
 
 # page configuration...
 
