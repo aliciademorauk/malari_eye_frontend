@@ -8,5 +8,4 @@ numpy
 seaborn
 matplotlib
 requests
-time
 libgl1
