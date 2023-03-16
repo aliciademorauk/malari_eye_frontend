@@ -16,12 +16,12 @@ if 'df' not in st.session_state.keys():
 
 # images
 
-malari_eye_logo = Image.open('./images/Malaria-Logo.png')
-spread_stages = Image.open('./images/Red-Spread-Stages.png')
-img_ring = Image.open('./images/Ring.png')
-img_trophozoite = Image.open('./images/Trophozoite.png')
-img_schizont = Image.open('./images/Schizont.png')
-img_gametocyte = Image.open('./images/Gametocyte.png')
+malari_eye_logo = Image.open('images/Malaria-Logo.png')
+spread_stages = Image.open('images/Red-Spread-Stages.png')
+img_ring = Image.open('images/Ring.png')
+img_trophozoite = Image.open('images/Trophozoite.png')
+img_schizont = Image.open('images/Schizont.png')
+img_gametocyte = Image.open('images/Gametocyte.png')
 
 # page configuration...
 # page title, layout

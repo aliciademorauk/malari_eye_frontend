@@ -14,13 +14,13 @@ from streamlit_extras.switch_page_button import switch_page
 
 # images used in the page opened here
 
-malaria_parasite_bright = Image.open('./images/Rounded-Bright-Cells.png')
-malaria_parasite_red = Image.open('./images/Cell-Homepage2.png')
-red_cell_rotated = Image.open('./images/Home-Red-Cell.png')
-malari_eye_logo = Image.open('./images/Malaria-Logo.png')
-malaria_parasite = Image.open('./images/Malaria-Parasite.jpeg')
-africa_spread = Image.open('./images/Africa-Spread-PhotoRoom.png')
-malari_logo_home = Image.open('./images/Homepage-Logo.png')
+malaria_parasite_bright = Image.open('images/Rounded-Bright-Cells.png')
+malaria_parasite_red = Image.open('images/Cell-Homepage2.png')
+red_cell_rotated = Image.open('images/Home-Red-Cell.png')
+malari_eye_logo = Image.open('images/Malaria-Logo.png')
+malaria_parasite = Image.open('images/Malaria-Parasite.jpeg')
+africa_spread = Image.open('images/Africa-Spread-PhotoRoom.png')
+malari_logo_home = Image.open('images/Homepage-Logo.png')
 
 # page configuration...
 
