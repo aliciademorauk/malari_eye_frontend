@@ -2,11 +2,11 @@ streamlit
 streamlit-extras
 numpy
 Pillow
-cv2
+opencv-python
 pandas
 numpy
 seaborn
-matplotlib.pyplot
+matplotlib
 requests
 time
 libgl1
