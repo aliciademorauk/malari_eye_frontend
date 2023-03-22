@@ -13,7 +13,7 @@ from streamlit.components.v1 import html
 from streamlit_extras.switch_page_button import switch_page
 
 # images used in the page opened here
-'HELLO'
+Image.open('images/Cell-Homepage2.png')
 # malaria_parasite_bright = Image.open('images/Cell-Homepage2.png')
 malaria_parasite_red = Image.open('images/Cell-Homepage2.png')
 red_cell_rotated = Image.open('images/Home-Red-Cell.png')
