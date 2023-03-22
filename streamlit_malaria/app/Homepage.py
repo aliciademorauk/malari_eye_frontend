@@ -14,9 +14,8 @@ from streamlit_extras.switch_page_button import switch_page
 import os
 
 # images used in the page opened here
-st.write(os.getcwd())
-Image.open('../images/Cell-Homepage2.png')
-# malaria_parasite_bright = Image.open('images/Cell-Homepage2.png')
+
+malaria_parasite_bright = Image.open('images/Bright-Rounded-Cells.png')
 malaria_parasite_red = Image.open('images/Cell-Homepage2.png')
 red_cell_rotated = Image.open('images/Home-Red-Cell.png')
 malari_eye_logo = Image.open('images/Malaria-Logo.png')
@@ -118,4 +117,4 @@ with st.container():
     if col1.button('TEST OUR PRODUCT', key=0):
         # function to make st.buttons take user to pages on side bar (from streamlit-extras)
         switch_page('Testing')
-    col2.image(malaria_parasite_red)
+    col2.image(malaria_parasite_bright)
