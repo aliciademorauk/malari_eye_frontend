@@ -16,12 +16,12 @@ import os
 # images used in the page opened here
 
 # malaria_parasite_bright = Image.open('images/Bright-Rounded-Cells.png')
-malaria_parasite_red = Image.open('images/Cell-Homepage2.png')
-red_cell_rotated = Image.open('images/Home-Red-Cell.png')
-malari_eye_logo = Image.open('images/Malaria-Logo.png')
-malaria_parasite = Image.open('images/Malaria-Parasite.jpeg')
-africa_spread = Image.open('images/Africa-Spread-PhotoRoom.png')
-malari_logo_home = Image.open('images/Homepage-Logo.png')
+malaria_parasite_red = Image.open('https://github.com/aliciademorauk/malari_eye_frontend/blob/master/streamlit_malaria/images/Cell-Homepage2.png.')
+# red_cell_rotated = Image.open('images/Home-Red-Cell.png')
+# malari_eye_logo = Image.open('images/Malaria-Logo.png')
+# malaria_parasite = Image.open('images/Malaria-Parasite.jpeg')
+# africa_spread = Image.open('images/Africa-Spread-PhotoRoom.png')
+# malari_logo_home = Image.open('images/Homepage-Logo.png')
 
 # page configuration...
 
