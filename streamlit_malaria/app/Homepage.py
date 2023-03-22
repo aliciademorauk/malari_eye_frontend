@@ -14,7 +14,7 @@ from streamlit_extras.switch_page_button import switch_page
 
 # images used in the page opened here
 'HELLO'
-malaria_parasite_bright = Image.open('images/Rounded-Bright-Cells.png')
+malaria_parasite_bright = Image.open('images/Cell-Homepage2.png')
 malaria_parasite_red = Image.open('images/Cell-Homepage2.png')
 red_cell_rotated = Image.open('images/Home-Red-Cell.png')
 malari_eye_logo = Image.open('images/Malaria-Logo.png')
