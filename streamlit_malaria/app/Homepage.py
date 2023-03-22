@@ -15,7 +15,7 @@ import os
 
 # images used in the page opened here
 st.write(os.getcwd())
-Image.open('images/Cell-Homepage2.png')
+Image.open('../images/Cell-Homepage2.png')
 # malaria_parasite_bright = Image.open('images/Cell-Homepage2.png')
 malaria_parasite_red = Image.open('images/Cell-Homepage2.png')
 red_cell_rotated = Image.open('images/Home-Red-Cell.png')
