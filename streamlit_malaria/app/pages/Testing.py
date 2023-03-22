@@ -16,7 +16,6 @@ if 'df' not in st.session_state.keys():
     st.session_state['df'] = ''
 
 # images
-st.write(f"{os.getcwd()}")
 
 malari_eye_logo = Image.open('streamlit/app/images/Malaria-Logo.png')
 spread_stages = Image.open('streamlit/app/images/Red-Spread-Stages.png')
